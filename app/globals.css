@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Google Fonts ──────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;600;700;800&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    @apply font-body text-plumInk bg-white antialiased;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tightest leading-tight;
+  }
+}
+
+/* ── Utilities ─────────────────────────────────────────────────────────────── */
+@layer utilities {
+  .eyebrow {
+    @apply font-mono text-[11px] tracking-[0.18em] uppercase text-aubergine font-medium;
+  }
+
+  .section-divider {
+    @apply border-b border-line;
+  }
+
+  /* Scroll reveal — JS adds .in to trigger */
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Wrap (max-width container) ────────────────────────────────────────────── */
+.wrap {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: clamp(16px, 4vw, 48px);
+}
