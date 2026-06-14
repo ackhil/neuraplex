@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
-  title: 'Evidence — Neuraplex',
+  title: 'Evidence -- Neuraplex',
   description:
     '6 months of real-world outcome data from an independent neurodevelopmental practice. 97% autism completions within 28 days.',
 }
@@ -17,7 +17,7 @@ const topStats = [
 const autismRows = [
   { label: 'Children assessed',            value: '58' },
   { label: 'Clinicians delivering',         value: '3' },
-  { label: 'Total clinician time per case', value: '4–6 hrs' },
+  { label: 'Total clinician time per case', value: '4-6 hrs' },
   { label: 'Admin time before Neuraplex',   value: '~3 hrs/case' },
   { label: 'Admin time with Neuraplex',     value: '<45 min/case' },
   { label: 'Reports auto-generated',        value: '100%' },
@@ -37,9 +37,9 @@ const adhdRows = [
 const timeline = [
   { month: 'May 2025',     event: 'Neuraplex deployed at independent practice' },
   { month: 'Jun 2025',     event: 'First cohort of cases triaged through platform' },
-  { month: 'Jul 2025',     event: 'Assessment templates live — clinician training complete' },
-  { month: 'Aug 2025',     event: 'One-click reporting enabled — admin time drops 75%' },
-  { month: 'Sep–Oct 2025', event: 'Full MDT workflow active; 60+ cases processed' },
+  { month: 'Jul 2025',     event: 'Assessment templates live -- clinician training complete' },
+  { month: 'Aug 2025',     event: 'One-click reporting enabled -- admin time drops 75%' },
+  { month: 'Sep-Oct 2025', event: 'Full MDT workflow active; 60+ cases processed' },
   { month: 'Nov 2025',     event: 'Six-month review: 85 total assessments, targets exceeded' },
 ]
 
@@ -130,7 +130,7 @@ export default function EvidencePage() {
             Real caseloads. Real clinicians. Real children and families.
           </p>
           <p className="font-mono text-[12px] text-teal tracking-wider">
-            MAY–NOVEMBER 2025 · INDEPENDENT PRACTICE · UK
+            MAY-NOVEMBER 2025 · INDEPENDENT PRACTICE · UK
           </p>
         </div>
       </section>
@@ -180,11 +180,11 @@ export default function EvidencePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <StudyCard
-              type="Autism Assessment" guideline="NICE NG142" period="May–Nov 2025"
+              type="Autism Assessment" guideline="NICE NG142" period="May-Nov 2025"
               headline="97%" headlineSub="completed within 28 days" rows={autismRows}
             />
             <StudyCard
-              type="ADHD Assessment" guideline="NICE NG87" period="May–Nov 2025"
+              type="ADHD Assessment" guideline="NICE NG87" period="May-Nov 2025"
               headline="93%" headlineSub="completed within 17 days" rows={adhdRows}
             />
           </div>
@@ -201,22 +201,22 @@ export default function EvidencePage() {
                 Where the hours went
               </h2>
               <p className="text-slate text-[16px] leading-relaxed mb-6">
-                The biggest gains came from eliminating manual documentation and report writing —
-                tasks eating 3–4 hours per case before Neuraplex.
+                The biggest gains came from eliminating manual documentation and report writing --
+                tasks eating 3-4 hours per case before Neuraplex.
               </p>
               <div className="bg-signal/5 border border-signal/20 rounded-brand p-5">
                 <p className="font-display font-bold text-plumInk text-[15px] mb-1">Net result: 2× clinician capacity</p>
                 <p className="text-slate text-[14px] leading-relaxed">
-                  The same clinical team can now handle twice as many cases in the same working week —
+                  The same clinical team can now handle twice as many cases in the same working week --
                   without any reduction in assessment quality.
                 </p>
               </div>
             </div>
             <div className="bg-mist rounded-brand border border-line p-6">
-              <HBar label="Documentation per assessment" before="3–4 hours" after="~45 minutes" beforePct={100} afterPct={22}/>
-              <HBar label="Report writing" before="2–3 hours" after="~15 minutes" beforePct={100} afterPct={10}/>
-              <HBar label="Family communication" before="30–60 min" after="Automated" beforePct={70} afterPct={5}/>
-              <HBar label="MDT coordination" before="1–2 hrs/week" after="~10 min/week" beforePct={80} afterPct={12}/>
+              <HBar label="Documentation per assessment" before="3-4 hours" after="~45 minutes" beforePct={100} afterPct={22}/>
+              <HBar label="Report writing" before="2-3 hours" after="~15 minutes" beforePct={100} afterPct={10}/>
+              <HBar label="Family communication" before="30-60 min" after="Automated" beforePct={70} afterPct={5}/>
+              <HBar label="MDT coordination" before="1-2 hrs/week" after="~10 min/week" beforePct={80} afterPct={12}/>
             </div>
           </div>
         </div>
@@ -253,10 +253,10 @@ export default function EvidencePage() {
         <div className="wrap">
           <div className="max-w-2xl mx-auto bg-plumInk rounded-brand p-10 text-center">
             <p className="font-display font-bold text-white text-[18px] leading-relaxed mb-4 italic">
-              &ldquo;[Placeholder — drop in a real clinician quote here. This is where social proof lands.]&rdquo;
+              &ldquo;[Placeholder -- drop in a real clinician quote here. This is where social proof lands.]&rdquo;
             </p>
             <p className="font-mono text-[11px] tracking-wider" style={{ color: '#C9B6D1' }}>
-              — LEAD CLINICIAN · INDEPENDENT PRACTICE · UK
+              -- LEAD CLINICIAN · INDEPENDENT PRACTICE · UK
             </p>
           </div>
         </div>
@@ -269,7 +269,7 @@ export default function EvidencePage() {
             <p className="font-display font-semibold text-plumInk text-[15px] mb-2">Methodology note</p>
             <p className="text-slate text-[14px] leading-relaxed">
               Data collected from a single independent neurodevelopmental assessment practice in the UK,
-              May–November 2025. 85 total cases (58 autism, 27 ADHD). Completion times measured from
+              May-November 2025. 85 total cases (58 autism, 27 ADHD). Completion times measured from
               referral receipt to report dispatch. Admin time measured via clinician self-report before
               and after Neuraplex deployment. Cost savings calculated against the practice&apos;s
               pre-Neuraplex cost-per-case baseline. Results reflect this specific practice and may vary.

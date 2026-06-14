@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
-  title: 'About — Neuraplex',
+  title: 'About -- Neuraplex',
   description:
     'Neuraplex is a clinician-led platform built to fix broken neurodevelopmental assessment pathways. Our mission: every neurodiverse child assessed on time, every time.',
 }
@@ -16,37 +16,37 @@ const problemStats = [
 
 const values = [
   { icon: '🩺', title: 'Clinician-first design',       desc: 'Every feature validated with practicing clinicians before it ships. We build what works in a clinic, not what sounds good in a boardroom.' },
-  { icon: '🔗', title: 'Pathway thinking',             desc: "We don't digitise isolated steps — we connect the whole pathway. Referral to report: one flow, no dropped handovers." },
+  { icon: '🔗', title: 'Pathway thinking',             desc: "We don't digitise isolated steps -- we connect the whole pathway. Referral to report: one flow, no dropped handovers." },
   { icon: '👨‍👩‍👧', title: 'Families at the centre',    desc: 'Every design decision asks: does this help a child get assessed faster? Does it keep their family informed and supported?' },
-  { icon: '📊', title: 'Evidence over assumption',     desc: 'Product decisions are driven by outcome data from real services — not theory, not benchmarks, not surveys alone.' },
+  { icon: '📊', title: 'Evidence over assumption',     desc: 'Product decisions are driven by outcome data from real services -- not theory, not benchmarks, not surveys alone.' },
   { icon: '🔒', title: 'Security without compromise',  desc: 'Clinical data is among the most sensitive that exists. We apply NHS-standard data protection and UK GDPR compliance throughout.' },
-  { icon: '🏥', title: 'Built for the NHS ecosystem', desc: 'We align to NICE guidelines, NHS terminology, and UK regulatory frameworks — so Neuraplex integrates into how services actually operate.' },
+  { icon: '🏥', title: 'Built for the NHS ecosystem', desc: 'We align to NICE guidelines, NHS terminology, and UK regulatory frameworks -- so Neuraplex integrates into how services actually operate.' },
 ]
 
 const roles = [
   {
     num: '01', title: 'Clinical leads & consultants',
-    desc: 'Oversight of the full pathway — caseload visibility, team performance, and audit trail — without the manual reporting overhead.',
+    desc: 'Oversight of the full pathway -- caseload visibility, team performance, and audit trail -- without the manual reporting overhead.',
     tasks: ['Dashboard overview of all active cases', 'Team workload management', 'Clinical governance audit trail'],
   },
   {
     num: '02', title: 'Assessing clinicians',
-    desc: 'NICE-aligned templates, AI documentation assist, and one-click reports — so clinical time is spent on the child, not the keyboard.',
+    desc: 'NICE-aligned templates, AI documentation assist, and one-click reports -- so clinical time is spent on the child, not the keyboard.',
     tasks: ['NICE NG142 / NG87 assessment templates', 'Voice-to-text and grammar assist', 'Auto-generated report from assessment data'],
   },
   {
     num: '03', title: 'Administrators & coordinators',
-    desc: 'Triage, scheduling, and family communication in one place — replacing email chains, spreadsheets, and manual chasing.',
+    desc: 'Triage, scheduling, and family communication in one place -- replacing email chains, spreadsheets, and manual chasing.',
     tasks: ['Unified enquiry inbox and triage queue', 'Automated appointment booking & reminders', 'Family communication log'],
   },
   {
     num: '04', title: 'Families & carers',
-    desc: 'Clear, timely communication throughout the pathway — forms to complete, appointment links to accept, and updates as the assessment progresses.',
+    desc: 'Clear, timely communication throughout the pathway -- forms to complete, appointment links to accept, and updates as the assessment progresses.',
     tasks: ['Mobile-friendly referral forms', 'Opt-in appointment booking', 'Automated status updates'],
   },
   {
     num: '05', title: 'Schools & GPs',
-    desc: 'Simple, structured referral forms that capture the right information from the start — reducing back-and-forth with the clinical team.',
+    desc: 'Simple, structured referral forms that capture the right information from the start -- reducing back-and-forth with the clinical team.',
     tasks: ['Structured digital referral forms', 'Instant submission acknowledgement', 'Secure information sharing'],
   },
 ]
@@ -58,7 +58,7 @@ function ProblemDiagram() {
     { label: 'Intake forms',    note: 'Paper or email' },
     { label: 'Booking',         note: 'Manual chasing' },
     { label: 'Assessment',      note: 'Underpowered tools' },
-    { label: 'Report writing',  note: '3–4 hrs admin' },
+    { label: 'Report writing',  note: '3-4 hrs admin' },
     { label: 'Outcome',         note: 'Delayed, fragmented' },
   ]
   return (
@@ -80,7 +80,7 @@ function ProblemDiagram() {
           </div>
         ))}
       </div>
-      <p className="font-mono text-[10px] text-red-400 tracking-wider text-center mt-3">WITHOUT NEURAPLEX — FRAGMENTED · MANUAL · DELAYED</p>
+      <p className="font-mono text-[10px] text-red-400 tracking-wider text-center mt-3">WITHOUT NEURAPLEX -- FRAGMENTED · MANUAL · DELAYED</p>
     </div>
   )
 }
@@ -114,7 +114,7 @@ function SolutionDiagram() {
           </div>
         ))}
       </div>
-      <p className="font-mono text-[10px] text-signal tracking-wider text-center mt-3">WITH NEURAPLEX — CONNECTED · DIGITAL · ON TIME</p>
+      <p className="font-mono text-[10px] text-signal tracking-wider text-center mt-3">WITH NEURAPLEX -- CONNECTED · DIGITAL · ON TIME</p>
     </div>
   )
 }
@@ -131,7 +131,7 @@ export default function AboutPage() {
             <em className="not-italic text-aubergine">on time, every time.</em>
           </h1>
           <p className="text-slate max-w-[60ch] mx-auto text-[17px] leading-relaxed">
-            Neuraplex exists because the pathway from referral to diagnosis is broken —
+            Neuraplex exists because the pathway from referral to diagnosis is broken --
             fragmented across emails, paper forms and spreadsheets while children wait years for answers.
             We&apos;re fixing it.
           </p>
@@ -183,7 +183,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-slate text-[16px] leading-relaxed mb-5">
                 Neuraplex wasn&apos;t designed in isolation. It was built in partnership with
-                the clinicians who run neurodevelopmental assessment services — psychologists,
+                the clinicians who run neurodevelopmental assessment services -- psychologists,
                 paediatricians, clinical leads, and the administrators who keep pathways moving.
               </p>
               <p className="text-slate text-[16px] leading-relaxed mb-5">
@@ -192,7 +192,7 @@ export default function AboutPage() {
                 Every workflow reflects how assessments actually run.
               </p>
               <p className="text-slate text-[16px] leading-relaxed">
-                The result is a platform that clinicians actually use — because it makes their day easier, not harder.
+                The result is a platform that clinicians actually use -- because it makes their day easier, not harder.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -200,7 +200,7 @@ export default function AboutPage() {
                 { stat: '100%', label: 'Features validated with practicing clinicians before release' },
                 { stat: 'NICE', label: 'NG142 (autism) and NG87 (ADHD) templates built in from the start' },
                 { stat: '85+',  label: 'Cases processed in the first six months of live deployment' },
-                { stat: '0',    label: 'Patient data collected on this site — B2B only, always' },
+                { stat: '0',    label: 'Patient data collected on this site -- B2B only, always' },
               ].map(({ stat, label }) => (
                 <div key={label} className="flex items-start gap-4 bg-white rounded-[14px] border border-line p-5">
                   <span className="font-display font-extrabold text-aubergine text-xl leading-none flex-shrink-0 w-14 text-right pt-0.5">{stat}</span>

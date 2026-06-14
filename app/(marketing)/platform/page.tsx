@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/Button'
 import Pathway from '@/components/Pathway'
 
 export const metadata: Metadata = {
-  title: 'Platform — Neuraplex',
+  title: 'Platform -- Neuraplex',
   description:
     'End-to-end neurodevelopmental assessment platform. NICE-aligned templates, AI documentation, one-click reporting, and multidisciplinary team tools.',
 }
@@ -13,7 +13,7 @@ const modules = [
   {
     num: '01',
     title: 'Smart Enquiry Intake',
-    desc: 'Parents, schools and GPs submit referrals through secure, mobile-friendly forms. Neuraplex captures the right information from the start — reducing back-and-forth and ensuring no referral is lost.',
+    desc: 'Parents, schools and GPs submit referrals through secure, mobile-friendly forms. Neuraplex captures the right information from the start -- reducing back-and-forth and ensuring no referral is lost.',
     details: ['Customisable referral forms', 'Automatic acknowledgement emails', 'GDPR-compliant data capture', 'Real-time notification to the clinical team'],
     color: 'bg-aubergine/[0.06]',
     accent: 'text-aubergine',
@@ -22,7 +22,7 @@ const modules = [
   {
     num: '02',
     title: 'Clinician Triage Dashboard',
-    desc: 'Every enquiry lands in one place. Triage cases by urgency, assign to the right clinician, flag missing information, and track status — all from a single view.',
+    desc: 'Every enquiry lands in one place. Triage cases by urgency, assign to the right clinician, flag missing information, and track status -- all from a single view.',
     details: ['Priority flagging and filtering', 'Team member assignment', 'Missing information tracker', 'Caseload overview at a glance'],
     color: 'bg-teal/[0.06]',
     accent: 'text-teal',
@@ -49,7 +49,7 @@ const modules = [
   {
     num: '05',
     title: 'One-Click Report Generation',
-    desc: 'Assessment data flows directly into a formatted clinical report. Review, edit, and finalise in minutes — not hours. Families are signposted to next steps automatically.',
+    desc: 'Assessment data flows directly into a formatted clinical report. Review, edit, and finalise in minutes -- not hours. Families are signposted to next steps automatically.',
     details: ['Pre-populated from assessment data', 'Editable before finalising', 'Automatic family copy', 'Digital signature support'],
     color: 'bg-teal/[0.06]',
     accent: 'text-teal',
@@ -58,7 +58,7 @@ const modules = [
   {
     num: '06',
     title: 'Multidisciplinary Team Tools',
-    desc: 'Share case information securely across your MDT. Task assignment, internal notes, and case handovers — all audited, all in one place.',
+    desc: 'Share case information securely across your MDT. Task assignment, internal notes, and case handovers -- all audited, all in one place.',
     details: ['Secure internal messaging', 'Task assignment and tracking', 'Full audit trail', 'Role-based access control'],
     color: 'bg-signal/[0.06]',
     accent: 'text-signal',
@@ -79,8 +79,8 @@ const beforeAfterRows = [
   { label: 'Referral acknowledgement', before: 'Days or weeks', after: 'Instant, automated' },
   { label: 'Information gathering', before: 'Phone calls, paper forms', after: 'Digital forms, mobile-friendly' },
   { label: 'Triage & assignment', before: 'Email chains, spreadsheets', after: 'Unified dashboard, real-time' },
-  { label: 'Assessment documentation', before: '3–4 hours of typing', after: '45 min with AI assist' },
-  { label: 'Report writing', before: '2–3 hours per report', after: 'One-click from assessment data' },
+  { label: 'Assessment documentation', before: '3-4 hours of typing', after: '45 min with AI assist' },
+  { label: 'Report writing', before: '2-3 hours per report', after: 'One-click from assessment data' },
   { label: 'Family communication', before: 'Manual letters/calls', after: 'Automated, signposted' },
   { label: 'MDT coordination', before: 'Separate emails and meetings', after: 'In-platform tasks and notes' },
   { label: 'Audit trail', before: 'Scattered, incomplete', after: 'Automatic, comprehensive' },
@@ -148,7 +148,7 @@ export default function PlatformPage() {
             <em className="not-italic text-aubergine">Nothing it doesn&apos;t.</em>
           </h1>
           <p className="text-slate max-w-[58ch] mx-auto text-[17px] leading-relaxed mb-8">
-            Neuraplex is built around the real clinical workflow — from first referral to final report — with NICE-aligned tools,
+            Neuraplex is built around the real clinical workflow -- from first referral to final report -- with NICE-aligned tools,
             AI documentation assist, and secure multidisciplinary team coordination in one place.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
@@ -164,7 +164,7 @@ export default function PlatformPage() {
           <div className="text-center mb-10">
             <p className="eyebrow mb-3">How it works</p>
             <h2 className="font-display font-bold tracking-tightest text-plumInk mb-3" style={{ fontSize: 'clamp(24px,3.5vw,38px)' }}>
-              One continuous pathway — referral to report
+              One continuous pathway -- referral to report
             </h2>
             <p className="text-slate max-w-[52ch] mx-auto text-[16px]">
               Every step connected. No handover gaps. No duplicated effort.
@@ -213,7 +213,7 @@ export default function PlatformPage() {
               Before Neuraplex vs. after
             </h2>
             <p className="text-slate max-w-[50ch] mx-auto text-[16px]">
-              The same clinical pathway — one fragmented across email and paper, one joined up.
+              The same clinical pathway -- one fragmented across email and paper, one joined up.
             </p>
           </div>
           <div className="overflow-x-auto rounded-brand border border-line">
@@ -250,7 +250,7 @@ export default function PlatformPage() {
               </h2>
               <p className="text-slate text-[16px] leading-relaxed mb-6">
                 Six months of live data from an independent neurodevelopmental practice.
-                Not modelled projections — actual outcomes measured from deployment.
+                Not modelled projections -- actual outcomes measured from deployment.
               </p>
               <Link href="/evidence" className="inline-flex items-center gap-2 text-aubergine font-semibold text-[15px] hover:underline">
                 Read the full evidence →
